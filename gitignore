@@ -1,0 +1,55 @@
+
+# =====================================
+# LMSC 261 - Introduction to Programming
+# macOS + VS Code + Python
+# =====================================
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# VS Code local settings
+.vscode/*
+!.vscode/extensions.json
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Python testing and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Conda environments
+.conda/
+conda-meta/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Log files
+*.log
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Git
+.gitignore
